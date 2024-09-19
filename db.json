@@ -1,6 +1,44 @@
 {
   "posts": [
-    { "id": "1", "title": "a title", "author": "Gim" },
-    { "id": "2", "title": "another title", "author": "Gim" }
+    {
+      "id": "1",
+      "title": "a title",
+      "author": "Gim"
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "author": "Gim"
+    },
+    {
+      "id": "2df4",
+      "title": "dasdasd",
+      "content": "sadasdsad",
+      "author": "sdasadsadasd"
+    },
+    {
+      "id": "a5a4",
+      "title": "dasdsadsad",
+      "content": "asdasdsadsad",
+      "author": "asdsadasdasd"
+    },
+    {
+      "id": "5e6a",
+      "title": "sadasdsad",
+      "content": "sadasdasd",
+      "author": "asdsadasdasdsadasd"
+    },
+    {
+      "id": "becc",
+      "title": "",
+      "content": "asdsadasd",
+      "author": "asdsadasd"
+    },
+    {
+      "id": "9ffa",
+      "title": "sadasdsad",
+      "content": "sadasdasdasd",
+      "author": "asdsadasd"
+    }
   ]
 }

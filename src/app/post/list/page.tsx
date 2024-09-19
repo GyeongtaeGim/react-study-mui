@@ -1,6 +1,7 @@
 import {
   Breadcrumbs,
   Divider,
+  Link,
   Stack,
   Table,
   TableBody,
@@ -24,7 +25,9 @@ function PostRow({ no, title, createdBy }: PostRowProps) {
   return (
     <TableRow>
       <TableCell>{no}</TableCell>
-      <TableCell>{title}</TableCell>
+      <TableCell>
+        <Link href={`/post/list/${no}`}>{title}</Link>
+      </TableCell>
       <TableCell>{createdBy}</TableCell>
     </TableRow>
   );
