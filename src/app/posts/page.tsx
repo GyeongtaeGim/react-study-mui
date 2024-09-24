@@ -1,5 +1,6 @@
 import {
   Breadcrumbs,
+  Button,
   Stack,
   Table,
   TableBody,
@@ -50,6 +51,7 @@ export default function PostsPage() {
           <Typography>목록</Typography>
         </Breadcrumbs>
         <Typography variant='h3'>게시글 목록</Typography>
+        <Button href='/posts/create'>게시글 작성하기</Button>
       </Stack>
       <Stack px={2}>
         <TableContainer>
